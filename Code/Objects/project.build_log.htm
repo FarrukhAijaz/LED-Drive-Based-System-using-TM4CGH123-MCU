@@ -1,0 +1,786 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Farrukh Aijaz farrukhajaz1@outlook.com, XYZ, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\farru\OneDrive\Desktop\Final_Project\project.uvprojx
+Project File Date:  01/07/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling I2C3_Read.s...
+assembling CH0.s...
+assembling CH1.s...
+assembling OutStr.s...
+assembling I2C3_Error_Check.s...
+assembling I2C3_Init.s...
+assembling I2C3_Write.s...
+main.c(1): warning: In file included from...
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(298): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  298 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(338): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  338 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(357): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  357 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(713): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  713 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(729): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  729 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(774): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  774 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(779): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  779 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(872): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  872 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(885): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  885 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(892): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  892 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(897): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  897 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(904): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  904 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(910): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  910 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(917): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  917 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(924): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  924 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(929): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  929 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(936): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  936 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(942): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  942 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(949): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  949 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(956): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  956 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(961): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  961 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(968): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  968 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(974): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  974 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(981): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  981 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(988): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  988 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(993): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  993 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1000): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1000 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1006): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1006 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1013): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1013 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1020): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1020 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1025): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1025 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1032): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1032 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1038): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1038 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1045): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1045 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1052): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1052 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1057): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1057 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1064): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1064 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1070): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1070 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1077): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1077 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1084): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1084 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1089): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1089 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1096): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1096 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1102): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1102 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1251 |   union {
+      |   ^
+main.c(2): warning: In file included from...
+./adc_init.h(8): warning: // comments are not allowed in this language [-Wcomment]
+    8 |         // Power up one one of the ATD modules
+      |         ^
+./adc_init.h(29): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   29 |         GPIOB->DIR              &=      ~(1<<4);
+      |                                 ~~      ^~~~~~~
+./adc_init.h(35): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   35 |         ADC0->ACTSS     &=      ~(1<<3);
+      |                         ~~      ^~~~~~~
+./adc_init.h(40): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   40 |   ADC0->EMUX    &= ~0xF000;
+      |                 ~~ ^~~~~~~
+main.c(3): warning: In file included from...
+./pwm_init.h(13): warning: no previous extern declaration for non-static variable 'LOW' [-Wmissing-variable-declarations]
+   13 | volatile int LOW        = 4095;         
+      |              ^
+./pwm_init.h(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   13 | volatile int LOW        = 4095;         
+      |          ^
+./pwm_init.h(14): warning: no previous extern declaration for non-static variable 'HIGH' [-Wmissing-variable-declarations]
+   14 | volatile int HIGH  =    2047;   
+      |              ^
+./pwm_init.h(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | volatile int HIGH  =    2047;   
+      |          ^
+./pwm_init.h(16): warning: no previous extern declaration for non-static variable 'line_display' [-Wmissing-variable-declarations]
+   16 | char line_display[32]                           = "----------------------\r\4";  
+      |      ^
+./pwm_init.h(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   16 | char line_display[32]                           = "----------------------\r\4";  
+      | ^
+./pwm_init.h(20): warning: // comments are not allowed in this language [-Wcomment]
+   20 |         SYSCTL->RCGCGPIO |= 0x20;                                       // Turn on bus clock for GPIOF
+      |                                                                         ^
+./pwm_init.h(45): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   45 |     GPIOC->PCTL &= ~0x000F0000; /* Set PC4 as output pin */
+      |                 ~~ ^~~~~~~~~~~
+./pwm_init.h(50): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   50 |     PWM0->_3_CTL &= ~(1 << 0);   /* Disable Generator 3 counter */
+      |                  ~~ ^~~~~~~~~
+./pwm_init.h(51): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   51 |     PWM0->_3_CTL &= ~(1 << 1);   /* Select down count mode of counter 3 */
+      |                  ~~ ^~~~~~~~~
+./pwm_init.h(65): warning: implicit conversion changes signedness: 'volatile uint32_t' (aka 'volatile unsigned int') to 'int' [-Wsign-conversion]
+   65 |                 duty_cycle = PWM0->_3_CMPA;
+      |                            ~ ~~~~~~^~~~~~~
+./pwm_init.h(83): warning: implicit conversion changes signedness: 'volatile int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   83 |                         PWM0->_3_CMPA = duty_cycle;
+      |                                       ~ ^~~~~~~~~~
+./pwm_init.h(87): warning: implicit conversion changes signedness: 'volatile int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   87 |                         PWM0->_3_CMPA = duty_cycle;
+      |                                       ~ ^~~~~~~~~~
+./pwm_init.h(91): warning: implicit conversion changes signedness: 'volatile int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   91 |                         PWM0->_3_CMPA = duty_cycle;
+      |                                       ~ ^~~~~~~~~~
+./pwm_init.h(96): warning: no newline at end of file [-Wnewline-eof]
+   96 | }
+      |  ^
+main.c(4): warning: In file included from...
+./utils.h(10): warning: // comments are not allowed in this language [-Wcomment]
+   10 |         // Initialize the array to be returned
+      |         ^
+./utils.h(24): warning: implicitly declaring library function 'abs' with type 'int (int)' [-Wimplicit-function-declaration]
+   24 |         frac_part = abs(frac_part);
+      |                     ^
+./utils.h(24): note: include the header <stdlib.h> or explicitly provide a declaration for 'abs'
+./utils.h(27): warning: implicitly declaring library function 'floor' with type 'double (double)' [-Wimplicit-function-declaration]
+   27 |         decimal = floor(float_value);
+      |                   ^
+./utils.h(27): note: include the header <math.h> or explicitly provide a declaration for 'floor'
+./utils.h(27): warning: implicit conversion loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   27 |         decimal = floor(float_value);
+      |                 ~ ^~~~~~~~~~~~~~~~~~
+./utils.h(27): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+   27 |         decimal = floor(float_value);
+      |                   ~~~~~ ^~~~~~~~~~~
+./utils.h(36): warning: implicitly declaring library function 'sprintf' with type 'int (char *, const char *, ...)' [-Wimplicit-function-declaration]
+   36 |         sprintf(char_array, "%d,%d", dec_part, frac_part);
+      |         ^
+./utils.h(36): note: include the header <stdio.h> or explicitly provide a declaration for 'sprintf'
+./utils.h(36): warning: incompatible pointer types passing 'char *[12]' to parameter of type 'char *' [-Wincompatible-pointer-types]
+   36 |         sprintf(char_array, "%d,%d", dec_part, frac_part);
+      |                 ^~~~~~~~~~
+./utils.h(39): warning: incompatible pointer types returning 'char *[12]' from a function with result type 'char *' [-Wincompatible-pointer-types]
+   39 |         return char_array;
+      |                ^~~~~~~~~~
+./utils.h(39): warning: address of stack memory associated with local variable 'char_array' returned [-Wreturn-stack-address]
+   39 |         return char_array;
+      |                ^~~~~~~~~~
+./utils.h(14): warning: unused variable 'fraction' [-Wunused-variable]
+   14 |         float fraction, decimal;
+      |               ^~~~~~~~
+main.c(5): warning: In file included from...
+./display.h(8): warning: 'SSI_SR_BSY' macro redefined [-Wmacro-redefined]
+    8 | #define SSI_SR_BSY (*((volatile uint32_t*)0x00000010))
+      |         ^
+./display.h(4): note: previous definition is here
+    4 | #define SSI_SR_BSY      0x00000010
+      |         ^
+./display.h(21): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   21 | void string_low();
+      |                ^
+      |                 void
+./display.h(22): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   22 | void string_high();
+      |                 ^
+      |                  void
+./display.h(23): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   23 | void string_lux();
+      |                ^
+      |                 void
+./display.h(24): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   24 | void configure_screen();
+      |                      ^
+      |                       void
+./display.h(28): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   28 | void print_heart();
+      |                 ^
+      |                  void
+./display.h(29): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   29 | void print_blank();
+      |                 ^
+      |                  void
+./display.h(30): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   30 | void print_state();
+      |                 ^
+      |                  void
+./display.h(35): warning: // comments are not allowed in this language [-Wcomment]
+   35 |     // RST pin will be connected to PA7
+      |     ^
+./display.h(97): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+   97 |     GPIOA->AMSEL &= ~0xFC; // Disable analog function for PA2, PA3, PA4, PA5
+      |                  ~~ ^~~~~
+./display.h(113): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  113 |     SSI0->CR0 &= ~0x30; // Clear SPH and SPO
+      |               ~~ ^~~~~
+./display.h(139): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  139 |         while ((SSI0->SR & 0x10) != 0x00){};
+      |                                            ^
+./display.h(145): warning: variable declaration in for loop is a C99-specific feature [-Wc99-extensions]
+  145 |                 for (int i = 0; i < 504; i++){ 
+      |                      ^
+./display.h(145): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+./display.h(147): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+  147 |                          while ((SSI0->SR & 0x10) != 0x00){};
+      |                                                             ^
+./display.h(280): warning: mixing declarations and code is a C99 extension [-Wdeclaration-after-statement]
+  280 |         int hex_num = num;
+      |             ^
+./display.h(294): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  294 | void string_low(){
+      |                ^
+      |                 void
+./display.h(294): warning: no previous prototype for function 'string_low' [-Wmissing-prototypes]
+  294 | void string_low(){
+      |      ^
+./display.h(21): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+   21 | void string_low();
+      |      ^          
+      |                 void
+./display.h(323): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  323 | void string_high(){
+      |                 ^
+      |                  void
+./display.h(323): warning: no previous prototype for function 'string_high' [-Wmissing-prototypes]
+  323 | void string_high(){
+      |      ^
+./display.h(22): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+   22 | void string_high();
+      |      ^           
+      |                  void
+./display.h(360): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  360 | void string_lux(){
+      |                ^
+      |                 void
+./display.h(360): warning: no previous prototype for function 'string_lux' [-Wmissing-prototypes]
+  360 | void string_lux(){
+      |      ^
+./display.h(23): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+   23 | void string_lux();
+      |      ^          
+      |                 void
+./display.h(389): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  389 | void configure_screen(){
+      |                      ^
+      |                       void
+./display.h(389): warning: no previous prototype for function 'configure_screen' [-Wmissing-prototypes]
+  389 | void configure_screen(){
+      |      ^
+./display.h(24): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+   24 | void configure_screen();
+      |      ^                
+      |                       void
+./display.h(418): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  418 | void print_heart(){
+      |                 ^
+      |                  void
+./display.h(418): warning: no previous prototype for function 'print_heart' [-Wmissing-prototypes]
+  418 | void print_heart(){
+      |      ^
+./display.h(28): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+   28 | void print_heart();
+      |      ^           
+      |                  void
+./display.h(432): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  432 | void print_blank(){
+      |                 ^
+      |                  void
+./display.h(432): warning: no previous prototype for function 'print_blank' [-Wmissing-prototypes]
+  432 | void print_blank(){
+      |      ^
+./display.h(29): note: this declaration is not a prototype; add 'void' to make it a prototype for a zero-parameter function
+   29 | void print_blank();
+      |      ^           
+      |                  void
+./display.h(30): warning: a function declaration without a prototype is deprecated in all versions of C and is treated as a zero-parameter prototype in C23, conflicting with a subsequent definition [-Wdeprecated-non-prototype]
+   30 | void print_state();
+      |      ^
+./display.h(445): note: conflicting prototype is here
+  445 | void print_state(int state){
+      |      ^
+./display.h(458): warning: no newline at end of file [-Wnewline-eof]
+  458 | }
+      |  ^
+main.c(6): warning: In file included from...
+./LUX_Calculation.h(1): warning: // comments are not allowed in this language [-Wcomment]
+    1 | #define LUX_SCALE 14 // scale by 2^14
+      |                      ^
+main.c(5): warning: In file included from...
+./display.h(445): warning: no previous prototype for function 'print_state' [-Wmissing-prototypes]
+  445 | void print_state(int state){
+      |      ^
+./display.h(30): note: this declaration is not a prototype; add parameter declarations to make it one
+   30 | void print_state();
+      |      ^
+main.c(6): warning: In file included from...
+./LUX_Calculation.h(99): warning: result of comparison of unsigned expression >= 0 is always true [-Wtautological-unsigned-zero-compare]
+   99 |                         if ((ratio >= 0) && (ratio <= K1T))
+      |                              ~~~~~ ^  ~
+./LUX_Calculation.h(117): warning: result of comparison of unsigned expression >= 0 is always true [-Wtautological-unsigned-zero-compare]
+  117 |                         if ((ratio >= 0) && (ratio <= K1C))
+      |                              ~~~~~ ^  ~
+./LUX_Calculation.h(139): warning: result of comparison of unsigned expression < 0 is always false [-Wtautological-unsigned-zero-compare]
+  139 |         if (temp < 0) temp = 0;
+      |             ~~~~ ^ ~
+./LUX_Calculation.h(145): warning: no newline at end of file [-Wnewline-eof]
+  145 | }
+      |  ^
+./LUX_Calculation.h(90): warning: mixing declarations and code is a C99 extension [-Wdeclaration-after-statement]
+   90 |         unsigned long ratio1 = 0;
+      |                       ^
+./LUX_Calculation.h(131): warning: variable 'b' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  131 |                         else if (ratio > K8C)
+      |                                  ^~~~~~~~~~~
+./LUX_Calculation.h(137): note: uninitialized use occurs here
+  137 |         temp = ((channel0 * b) - (channel1 * m));
+      |                             ^
+./LUX_Calculation.h(131): note: remove the 'if' if its condition is always true
+  131 |                         else if (ratio > K8C)
+      |                              ^~~~~~~~~~~~~~~~
+  132 |                                 {b=B8C; m=M8C;}
+./LUX_Calculation.h(113): warning: variable 'b' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  113 |                         else if (ratio > K8T)
+      |                                  ^~~~~~~~~~~
+./LUX_Calculation.h(137): note: uninitialized use occurs here
+  137 |         temp = ((channel0 * b) - (channel1 * m));
+      |                             ^
+./LUX_Calculation.h(113): note: remove the 'if' if its condition is always true
+  113 |                         else if (ratio > K8T)
+      |                              ^~~~~~~~~~~~~~~~
+  114 |                                 {b=B8T; m=M8T;}
+./LUX_Calculation.h(95): note: initialize the variable 'b' to silence this warning
+   95 |         unsigned int b, m;
+      |                       ^
+      |                        = 0
+./LUX_Calculation.h(131): warning: variable 'm' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  131 |                         else if (ratio > K8C)
+      |                                  ^~~~~~~~~~~
+./LUX_Calculation.h(137): note: uninitialized use occurs here
+  137 |         temp = ((channel0 * b) - (channel1 * m));
+      |                                              ^
+./LUX_Calculation.h(131): note: remove the 'if' if its condition is always true
+  131 |                         else if (ratio > K8C)
+      |                              ^~~~~~~~~~~~~~~~
+  132 |                                 {b=B8C; m=M8C;}
+./LUX_Calculation.h(113): warning: variable 'm' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  113 |                         else if (ratio > K8T)
+      |                                  ^~~~~~~~~~~
+./LUX_Calculation.h(137): note: uninitialized use occurs here
+  137 |         temp = ((channel0 * b) - (channel1 * m));
+      |                                              ^
+./LUX_Calculation.h(113): note: remove the 'if' if its condition is always true
+  113 |                         else if (ratio > K8T)
+      |                              ^~~~~~~~~~~~~~~~
+  114 |                                 {b=B8T; m=M8T;}
+./LUX_Calculation.h(95): note: initialize the variable 'm' to silence this warning
+   95 |         unsigned int b, m;
+      |                          ^
+      |                           = 0
+main.c(16): warning: no previous extern declaration for non-static variable 'CH0_mean' [-Wmissing-variable-declarations]
+   16 | unsigned int CH0_mean=0;
+      |              ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   16 | unsigned int CH0_mean=0;
+      | ^
+main.c(17): warning: no previous extern declaration for non-static variable 'CH1_mean' [-Wmissing-variable-declarations]
+   17 | unsigned int CH1_mean=0;
+      |              ^
+main.c(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   17 | unsigned int CH1_mean=0;
+      | ^
+main.c(18): warning: no previous extern declaration for non-static variable 'sample' [-Wmissing-variable-declarations]
+   18 | float sample = 0;
+      |       ^
+main.c(18): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   18 | float sample = 0;
+      | ^
+main.c(19): warning: no previous extern declaration for non-static variable 'duty' [-Wmissing-variable-declarations]
+   19 | float duty = 0;
+      |       ^
+main.c(19): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   19 | float duty = 0;
+      | ^
+main.c(20): warning: no previous extern declaration for non-static variable 'low_threshold' [-Wmissing-variable-declarations]
+   20 | float low_threshold = 200;
+      |       ^
+main.c(20): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   20 | float low_threshold = 200;
+      | ^
+main.c(21): warning: no previous extern declaration for non-static variable 'high_threshold' [-Wmissing-variable-declarations]
+   21 | float high_threshold = 700;
+      |       ^
+main.c(21): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   21 | float high_threshold = 700;
+      | ^
+main.c(22): warning: no previous extern declaration for non-static variable 'state' [-Wmissing-variable-declarations]
+   22 | int state = -1;
+      |     ^
+main.c(22): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   22 | int state = -1;
+      | ^
+main.c(27): warning: no previous extern declaration for non-static variable 'line' [-Wmissing-variable-declarations]
+   27 | char line[32] = "---------\r\4";
+      |      ^
+main.c(27): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   27 | char line[32] = "---------\r\4";
+      | ^
+main.c(35): warning: variable declaration in for loop is a C99-specific feature [-Wc99-extensions]
+   35 |                         for (int counter=0; counter<128; ++counter)
+      |                              ^
+main.c(35): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+main.c(37): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+   37 |                                         CH0_mean += CH0();
+      |                                                  ~~ ^~~~~
+main.c(38): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+   38 |                                         CH1_mean += CH1();
+      |                                                  ~~ ^~~~~
+main.c(43): warning: // comments are not allowed in this language [-Wcomment]
+   43 |                         //CH0_mean=0;
+      |                         ^
+main.c(45): warning: implicit conversion turns floating-point number into integer: 'float' to 'int' [-Wfloat-conversion]
+   45 |                         det_value = (float) luminosity;
+      |                                   ~ ^~~~~~~~~~~~~~~~~~
+main.c(60): warning: implicit conversion from 'volatile uint32_t' (aka 'volatile unsigned int') to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   60 |                         sample = ADC0->SSFIFO3;
+      |                                ~ ~~~~~~^~~~~~~
+main.c(93): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   93 | int main()
+      |         ^
+      |          void
+main.c(139): warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+  139 |                         detected_value = get_lum_data();
+      |                                        ~ ^~~~~~~~~~~~~~
+main.c(147): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  147 |                         GPIOF->DATA&=~0x08;
+      |                                    ~~^~~~~
+main.c(148): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  148 |                         GPIOF->DATA&=~0x02;
+      |                                    ~~^~~~~
+main.c(152): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  152 |                         GPIOF->DATA&=~0x04;
+      |                                    ~~^~~~~
+main.c(153): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  153 |                         GPIOF->DATA&=~0x08;
+      |                                    ~~^~~~~
+main.c(157): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  157 |                         GPIOF->DATA&=~0x02;
+      |                                    ~~^~~~~
+main.c(158): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  158 |                         GPIOF->DATA&=~0x04;
+      |                                    ~~^~~~~
+main.c(161): warning: implicit conversion turns floating-point number into integer: 'float' to 'int' [-Wfloat-conversion]
+  161 |                         print_low_data(low_threshold);
+      |                         ~~~~~~~~~~~~~~ ^~~~~~~~~~~~~
+main.c(162): warning: implicit conversion turns floating-point number into integer: 'float' to 'int' [-Wfloat-conversion]
+  162 |                         print_high_data(high_threshold);
+      |                         ~~~~~~~~~~~~~~~ ^~~~~~~~~~~~~~
+main.c(163): warning: implicit conversion turns floating-point number into integer: 'float' to 'int' [-Wfloat-conversion]
+  163 |                         print_lux_data(detected_value);
+      |                         ~~~~~~~~~~~~~~ ^~~~~~~~~~~~~~
+main.c(167): warning: implicit declaration of function 'OutStr' [-Wimplicit-function-declaration]
+  167 |                         OutStr(msg1);
+      |                         ^
+main.c(14): warning: no previous extern declaration for non-static variable 'luminosity' [-Wmissing-variable-declarations]
+   14 | unsigned int luminosity;
+      |              ^
+main.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   14 | unsigned int luminosity;
+      | ^
+main.c(15): warning: no previous extern declaration for non-static variable 'detected_value' [-Wmissing-variable-declarations]
+   15 | float detected_value;
+      |       ^
+main.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   15 | float detected_value;
+      | ^
+main.c(23): warning: no previous extern declaration for non-static variable 'msg1' [-Wmissing-variable-declarations]
+   23 | char msg1[32];  
+      |      ^
+main.c(23): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   23 | char msg1[32];  
+      | ^
+main.c(24): warning: no previous extern declaration for non-static variable 'msg2' [-Wmissing-variable-declarations]
+   24 | char msg2[32];
+      |      ^
+main.c(24): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   24 | char msg2[32];
+      | ^
+main.c(25): warning: no previous extern declaration for non-static variable 'msg3' [-Wmissing-variable-declarations]
+   25 | char msg3[32];
+      |      ^
+main.c(25): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   25 | char msg3[32];
+      | ^
+main.c(26): warning: no previous extern declaration for non-static variable 'msg4' [-Wmissing-variable-declarations]
+   26 | char msg4[32];
+      |      ^
+main.c(26): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+   26 | char msg4[32];
+      | ^
+144 warnings generated.
+compiling main.c...
+assembling startup_TM4C123.s...
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(298): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  298 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(338): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  338 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(357): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  357 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(713): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  713 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(729): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  729 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(774): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  774 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(779): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  779 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(872): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  872 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(885): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  885 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(892): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  892 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(897): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  897 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(904): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  904 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(910): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  910 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(917): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  917 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(924): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  924 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(929): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  929 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(936): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  936 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(942): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  942 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(949): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  949 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(956): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  956 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(961): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  961 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(968): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  968 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(974): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  974 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(981): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  981 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(988): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  988 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(993): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  993 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1000): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1000 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1006): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1006 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1013): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1013 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1020): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1020 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1025): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1025 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1032): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1032 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1038): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1038 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1045): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1045 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1052): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1052 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1057): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1057 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1064): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1064 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1070): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1070 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1077): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1077 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1084): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1084 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1089): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1089 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1096): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1096 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1102): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1102 |   union {
+      |   ^
+C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+ 1251 |   union {
+      |   ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(19): warning: // comments are not allowed in this language [-Wcomment]
+   19 | //-------- <<< Use Configuration Wizard in Context Menu >>> ------------------
+      | ^
+45 warnings generated.
+compiling system_TM4C123.c...
+linking...
+Program Size: Code=15216 RO-data=1244 RW-data=44 ZI-data=728  
+".\Objects\project.axf" - 0 Error(s), 189 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.0.0.pack
+                ARM::CMSIS@6.0.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil::TM4C_DFP@1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/farru/AppData/Local/Arm/Packs/ARM/CMSIS/6.0.0/CMSIS/Core/Include
+  C:/Users/farru/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.0.0
+
+   * Component: Keil::Device:Startup@1.0.1
+      Source file:   Device/Source/system_TM4C123.c
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+      Include file:  Device/Include/TM4C123/TM4C123.h
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
